@@ -71,6 +71,22 @@ Pour voir les partages existants :
 
 ### Via l'interface graphique (GUI)
 
+Ouvre l'Explorateur de fichiers
+
+
+Clique droit sur "Ce PC" > "Connecter un lecteur réseau"
+
+
+Choisis une lettre de lecteur
+
+
+Entre le chemin du partage (ex: \\nom_serveur\Ressourcesv2)
+
+
+Coche "Se reconnecter à l'ouverture de session" si désiré
+
+
+Clique sur "Terminer"
 
 
 ### Via PowerShell
