@@ -1,0 +1,54 @@
+<div align="center"><H1> Partage de fichiers </H1></div>
+
+## Mise en pratique : Configuration d'un serveur de fichiers Windows
+
+
+
+### Installation du rôle Serveur de fichiers
+
+
+
+
+### Création d'un partage
+
+
+
+### Configuration avancée avec PowerShell
+
+L'utilisation de PowerShell permet une configuration plus rapide et automatisable du serveur de fichiers.
+
+Pour créer un partage via PowerShell :
+
+bash```
+New-SmbShare -Name "Ressourcesv2" -Path "C:\Partages\Ressourcesv2" -FullAccess "Tout le monde"
+```
+
+Pour voir les partages existants :
+
+bash ```
+Get-SmbShare
+```
+
+
+## Configuration des lecteurs réseau sur les clients
+
+
+### Via l'interface graphique (GUI)
+
+
+
+### Via PowerShell
+
+L'utilisation de PowerShell permet d'automatiser la configuration des lecteurs réseau, ce qui est particulièrement utile dans les grands environnements.
+
+Pour mapper un lecteur réseau :
+
+bash```
+New-PSDrive -Name "Z" -PSProvider FileSystem -Root "\\nom_serveur\Ressourcesv2" -Persist
+```
+
+Pour voir les lecteurs mappés :
+
+bash ```
+Get-PSDrive -PSProvider FileSystem
+```
