@@ -73,21 +73,21 @@ Pour voir les partages existants :
 
 Ouvre l'Explorateur de fichiers
 
+![VirtualBoxVM_SBSAsK58dh.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Via%20l'interface%20graphique%20(gui)/VirtualBoxVM_SBSAsK58dh.png)
 
 Clique droit sur "Ce PC" > "Connecter un lecteur réseau"
 
+![VirtualBoxVM_uLarZQXjWT.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Via%20l'interface%20graphique%20(gui)/VirtualBoxVM_uLarZQXjWT.png)
 
 Choisis une lettre de lecteur
-
-
 Entre le chemin du partage (ex: \\nom_serveur\Ressourcesv2)
-
-
 Coche "Se reconnecter à l'ouverture de session" si désiré
 
+![VirtualBoxVM_b3Q4tcTaYd.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Via%20l'interface%20graphique%20(gui)/VirtualBoxVM_b3Q4tcTaYd.png)
 
 Clique sur "Terminer"
 
+![VirtualBoxVM_DZJf1vgout.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Via%20l'interface%20graphique%20(gui)/VirtualBoxVM_DZJf1vgout.png)
 
 ### Via PowerShell
 
