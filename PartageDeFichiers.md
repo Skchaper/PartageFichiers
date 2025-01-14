@@ -68,7 +68,6 @@ Pour voir les partages existants :
 
 ## Configuration des lecteurs réseau sur les clients
 
-
 ### Via l'interface graphique (GUI)
 
 Ouvre l'Explorateur de fichiers
@@ -100,3 +99,5 @@ Pour mapper un lecteur réseau :
 Pour voir les lecteurs mappés :
 
 **Get-PSDrive -PSProvider FileSystem**
+
+<div align="center"><H1> Challenge </H1></div>
