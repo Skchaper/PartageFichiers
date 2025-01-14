@@ -101,3 +101,52 @@ Pour voir les lecteurs mappés :
 **Get-PSDrive -PSProvider FileSystem**
 
 <div align="center"><H1> Challenge </H1></div>
+
+Sur un Windows Server 2022 avec le rôle ADDS déployé sur une VM :
+
+**Installe le rôle Serveur de fichiers**
+
+Voir la première partie de ce document.
+
+**Crée un dossier "Documents_Entreprise" à la racine du disque C:**
+
+
+
+**Configure un partage nommé "Docs" pour ce dossier**
+
+
+
+**Crée trois sous-dossiers : "RH", "Comptabilité" et "Direction"**
+
+
+
+**Configure les permissions NTFS et de partage pour que :**
+
+
+
+**Le groupe "RH" ait un accès en lecture/écriture au dossier "RH"**
+
+
+
+**Le groupe "Comptabilité" ait un accès en lecture/écriture au dossier "Comptabilité"**
+
+
+
+**Le groupe "Direction" ait un accès en lecture/écriture à tous les dossiers**
+
+
+
+**Tous les utilisateurs du domaine aient un accès en lecture seule au dossier "Documents_Entreprise"**
+
+
+
+**Utilise PowerShell pour lister tous les partages sur le serveur**
+
+
+
+**Sur un poste client Windows 10, configure un lecteur réseau pointant vers ce partage via PowerShell**
+
+
+
+**Teste l'accès depuis le poste client avec différents comptes utilisateurs**
+
