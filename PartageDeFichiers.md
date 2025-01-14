@@ -26,7 +26,33 @@ Suis l'assistant pour terminer l'installation
 
 ### Création d'un partage
 
+Dans le Gestionnaire de serveur, va dans "Services de fichiers et de stockage" > "Partages"
 
+![1_SERVICES_FICHIERS.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/1_SERVICES_FICHIERS.png)
+
+Clique droit > "Nouveau partage"
+
+![2_PARTAGE_NOUVEAU.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/2_PARTAGE_NOUVEAU.png)
+
+Choisis "Partage SMB - Rapide"
+
+![3_SMB_RAPIDE.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/3_SMB_RAPIDE.png)
+
+Sélectionne l'emplacement du dossier à partager
+
+![4_EMPLACEMENT.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/4_EMPLACEMENT.png)
+
+Nomme ton partage
+
+![5_NOM_PARTAGE.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/5_NOM_PARTAGE.png)
+
+Configure les permissions NTFS et de partage selon tes besoins
+
+![6_CONFIRMATION.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/6_CONFIRMATION.png)
+
+Termine l'assistant
+
+![7_FERMER.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Cr%C3%A9ation%20partage/7_FERMER.png)
 
 ### Configuration avancée avec PowerShell
 
