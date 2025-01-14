@@ -19,7 +19,7 @@ L'utilisation de PowerShell permet une configuration plus rapide et automatisabl
 
 Pour créer un partage via PowerShell :
 
-bash```
+bash ```
 New-SmbShare -Name "Ressourcesv2" -Path "C:\Partages\Ressourcesv2" -FullAccess "Tout le monde"
 ```
 
