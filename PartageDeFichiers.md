@@ -2,12 +2,17 @@
 
 ## Mise en pratique : Configuration d'un serveur de fichiers Windows
 
-
-
 ### Installation du rôle Serveur de fichiers
 
+![1_AJOUT_ROLE.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/1_AJOUT_ROLE.png)
 
+![2_ROLE_FONCTIONNALITE.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/2_ROLE_FONCTIONNALITE.png)
 
+![3_SELECTION_SERVER.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/3_SELECTION_SERVER.png)
+
+![4_SERVICES_FICHIERS.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/4_SERVICES_FICHIERS.png)
+
+![5_SERVEUR_FICHIERS.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/5_SERVEUR_FICHIERS.png)
 
 ### Création d'un partage
 
