@@ -4,13 +4,23 @@
 
 ### Installation du rôle Serveur de fichiers
 
+Clique sur "Gérer" > "Ajouter des rôles et fonctionnalités"
+
 ![1_AJOUT_ROLE.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/1_AJOUT_ROLE.png)
+
+Choisis "Installation basée sur un rôle ou une fonctionnalité"
 
 ![2_ROLE_FONCTIONNALITE.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/2_ROLE_FONCTIONNALITE.png)
 
+Sélectionne ton serveur
+
 ![3_SELECTION_SERVER.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/3_SELECTION_SERVER.png)
 
+Dans la liste des rôles, coche "Services de fichiers et de stockage" > "Serveur de fichiers"
+
 ![4_SERVICES_FICHIERS.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/4_SERVICES_FICHIERS.png)
+
+Suis l'assistant pour terminer l'installation
 
 ![5_SERVEUR_FICHIERS.png](https://github.com/Skchaper/PartageFichiers/blob/main/Screens/Installation%20r%C3%B4le/5_SERVEUR_FICHIERS.png)
 
