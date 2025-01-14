@@ -19,16 +19,11 @@ L'utilisation de PowerShell permet une configuration plus rapide et automatisabl
 
 Pour créer un partage via PowerShell :
 
-bash```
-New-SmbShare -Name "Ressourcesv2" -Path "C:\Partages\Ressourcesv2" -FullAccess "Tout le monde"
-```
+**New-SmbShare -Name "Ressourcesv2" -Path "C:\Partages\Ressourcesv2" -FullAccess "Tout le monde"**
 
 Pour voir les partages existants :
 
-bash```
-Get-SmbShare
-```
-
+**Get-SmbShare**
 
 ## Configuration des lecteurs réseau sur les clients
 
@@ -43,12 +38,8 @@ L'utilisation de PowerShell permet d'automatiser la configuration des lecteurs r
 
 Pour mapper un lecteur réseau :
 
-bash```
-New-PSDrive -Name "Z" -PSProvider FileSystem -Root "\\nom_serveur\Ressourcesv2" -Persist
-```
+**New-PSDrive -Name "Z" -PSProvider FileSystem -Root "\\nom_serveur\Ressourcesv2" -Persist**
 
 Pour voir les lecteurs mappés :
 
-bash ```
-Get-PSDrive -PSProvider FileSystem
-```
+**Get-PSDrive -PSProvider FileSystem**
